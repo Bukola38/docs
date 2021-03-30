@@ -1,4 +1,4 @@
----
+---packages
 title: Deleting and restoring a package
 intro: 'Learn how to delete or restore a package.'
 product: '{% data reusables.gated-features.packages %}'
@@ -10,7 +10,7 @@ redirect_from:
 versions:
   free-pro-team: '*'
   enterprise-server: '>=3.1'
----
+---buk28
 
 {% data reusables.package_registry.packages-ghes-release-stage %}
 
@@ -22,7 +22,7 @@ On {% data variables.product.prodname_dotcom %} if you have the required access,
 - a specific version of a private package
 - a specific version of a public package, if the package version doesn't have more than 25 downloads
 
-{% note %}
+{% note %}a specific version of a public package
 
 **Note:** 
 - You cannot delete a public package if any version of the package has more than 25 downloads. In this scenario, contact [GitHub support](https://support.github.com/contact) for further assistance.
